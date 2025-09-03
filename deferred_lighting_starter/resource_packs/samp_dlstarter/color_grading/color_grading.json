@@ -8,22 +8,22 @@
       "highlights": {
         "highlightsMin": 20,
         "enabled": true,
-        "contrast": [1.1, 1.1, 1.1],
-        "saturation": [1.04, 1.04, 1.04],
+        "contrast": [1.0, 1.0, 1.0],
+        "saturation": [1.0, 1.0, 1.0],
         "gain": [0.5, 1.2, 1.2],
         "offset": [0.0, 0.0, 0.0],
-        "gamma": [2.45, 2.45, 2.45]
+        "gamma": [2.30, 2.30, 2.30]
       },
       "midtones": {
         "midtonesMax": 60,
-        "contrast": [1.1, 1.1, 1.1],
-        "saturation": [1.04, 1.04, 1.04],
+        "contrast": [1.0, 1.0, 1.0],
+        "saturation": [1.0, 1.0, 1.0],
         "gain": [0.5, 1.2, 1.2],
         "offset": [0.0, 0.0, 0.0],
         "gamma": [2.45, 2.45, 2.45]
       },
       "shadows": {
-        "shadowsMax": 0.4,
+        "shadowsMax": 0.2,
         "enabled": true,
         "contrast": [1.1, 1.1, 1.1],
         "saturation": [1.04, 1.04, 1.04],
