@@ -1,7 +1,9 @@
 {
   "format_version": "1.21.70",
   "minecraft:lighting_settings": {
-    "description": { "identifier": "example:default_lighting" },
+    "description": {
+       "identifier": "example:default_lighting"
+       },
     "directional_lights": {
       "sun": {
         "illuminance": {
