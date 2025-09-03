@@ -1,7 +1,9 @@
 {
   "format_version": "1.21.40",
   "minecraft:color_grading_settings": {
-    "description": { "identifier": "minecraft:default_color_grading" },
+    "description": {
+       "identifier": "minecraft:default_color_grading" 
+    },
     "color_grading": {
       "midtones": {
         "contrast": [1.2999999523162842, 1.2999999523162842, 1.2999999523162842],
@@ -29,6 +31,7 @@
         "saturation": [1.0499999523162842, 1.0499999523162842, 1.0499999523162842]
       }
     },
-    "tone_mapping": { "operator": "generic" }
+    "tone_mapping": { 
+      "operator": "generic" }
   }
 }
