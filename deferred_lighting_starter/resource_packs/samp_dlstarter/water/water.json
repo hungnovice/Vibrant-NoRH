@@ -2,34 +2,49 @@
   "format_version": "1.21.80",
   "minecraft:water_settings": {
     "description": { 
-      "identifier": "norh:default_water"
-       },
-    
+      "identifier": "norh:complementary_water"
+    },
+
     "particle_concentrations": { 
-      "chlorophyll": 0.05000000074505806,
-       "suspended_sediment": 6.0,
-       "cdom": 0.0
-       },
+      "chlorophyll": 0.03,
+      "suspended_sediment": 4.0,
+      "cdom": 0.02
+    },
+
     "caustics": {
-       "enabled": true,
-       "frame_length": 0.05000000074505806,
-       "texture": "textures/causticsLow/caustics.png",
-       "scale": 0.5,
-       "power": 2
-       },
+      "enabled": true,
+      "frame_length": 0.05,
+      "texture": "textures/causticsHigh/caustics.png",
+      "scale": 0.6,
+      "power": 2.2
+    },
+
     "waves": {
       "enabled": true,
-      "frequency": 0.5799999833106995,
-      "octaves": 18,
-      "depth": 0.5,
-      "sampleWidth": 0.009999999776482582,
-      "speed": 0.5,
-      "pull": 0.3799999952316284,
-      "mix": 0.20000000298023225,
-      "frequency_scaling": 1.2000000476837159,
-      "speed_scaling": 1.0299999713897706,
-      "direction_increment": 80.0,
-      "shape": 2.3
+      "frequency": 0.55,
+      "octaves": 12,
+      "depth": 0.45,
+      "sampleWidth": 0.01,
+      "speed": 0.42,
+      "pull": 0.35,
+      "mix": 0.25,
+      "frequency_scaling": 1.15,
+      "speed_scaling": 1.05,
+      "direction_increment": 70.0,
+      "shape": 2.0
+    },
+
+    "color": {
+      "0.0": [35, 80, 135],     // Midnight navy blue
+      "0.25": [45, 100, 160],   // Dawn – hơi xanh dương tím
+      "0.5": [60, 140, 200],    // Noon – cyan trong xanh
+      "0.75": [50, 120, 180],   // Sunset – xanh lam pha tím
+      "1.0": [35, 80, 135]      // Night – trở lại navy blue
+    },
+
+    "clarity": {
+      "depth": 18.0,
+      "attenuation": [0.8, 0.9, 1.0]
     }
   }
 }
