@@ -56,12 +56,12 @@
         "0.000000": 0.0 }
     },
     "emissive": { 
-      "desaturation": 0.10000000149011612
+      "desaturation": 0.20000000149011612
        },
     "ambient": { 
-      "color": [255, 255, 255],
+      "color": [60,86,127],
        "illuminance": 0.019999999552965165
        },
-    "sky": { "intensity": 1.0 }
+    "sky": { "intensity": 0.5 }
   }
 }
