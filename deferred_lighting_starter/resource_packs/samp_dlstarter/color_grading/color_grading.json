@@ -32,6 +32,6 @@
       }
     },
     "tone_mapping": { 
-      "operator": "generic" }
+      "operator": "aces" }
   }
 }
